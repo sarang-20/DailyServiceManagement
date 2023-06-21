@@ -1,0 +1,42 @@
+.monthly-card {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right, #7AD7F0, #92DFF3, #B7E9F7, #F5FCFF);
+}
+
+.customer-name {
+    font-weight: bold;
+}
+
+.provider-name {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    /* margin-bottom: 10px; */
+    padding-bottom: 10px;
+    font-weight: bold;
+    /* background-image: linear-gradient(to bottom right, #7AD7F0, #92DFF3, #B7E9F7, #F5FCFF); */
+}
+
+.card-header p {
+    margin: 0;
+}
+
+.card-main-body {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.total-rupees {
+    margin-top: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,86 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+.milkprovider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to bottom right, #7AD7F0, #92DFF3, #B7E9F7, #F5FCFF);
+    /* updated font */
+}
+
+.select-container {
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    margin-right: 10px;
+}
+
+select:focus {
+    box-shadow: 0 0 3px #555;
+}
+
+.onereq-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.onereq {
+    background-color: #fff;
+    box-shadow: 0 0 5px #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.onereq h3 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.onereq p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.onereq button {
+    background-color: black;
+    /* updated button color /
+border: none;
+color: #fff;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+font-weight: 700;
+border-radius: 25px; / updated border radius /
+cursor: pointer;
+transition: background-color 0.3s ease;
+box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25); / added box shadow */
+}
+
+.onereq button:hover {
+    background-color: #005CA9;
+    /* updated button hover color */
+}
+
+.howmuchmilk {
+    font-weight: bolder;
+    font-size: 2.5em;
+}

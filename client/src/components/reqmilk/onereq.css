@@ -1,0 +1,43 @@
+/* Component container */
+
+.onereq {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+
+/* Title */
+
+.onereq h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+/* Text content */
+
+.onereq p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Button */
+
+.onereq button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.2s ease;
+}
+
+.onereq .btn:hover {
+    background-color: black;
+    /* color: black; */
+}

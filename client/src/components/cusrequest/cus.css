@@ -1,0 +1,69 @@
+.cus-req-container {
+    background-color: #2C3E50;
+    background-image: linear-gradient(to bottom right, #7AD7F0, #92DFF3, #B7E9F7, #F5FCFF);
+    background-blend-mode: screen;
+    color: #040404;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right, #7AD7F0, #92DFF3, #B7E9F7, #F5FCFF);
+}
+
+.title {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.request-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.req-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.req-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.req-card p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.req-card button {
+    font-size: 1rem;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.req-card button:hover {
+    background-color: #3e8e41;
+}

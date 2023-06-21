@@ -1,0 +1,114 @@
+.req-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    background-color: #080707;
+    /* Added background color */
+}
+
+.req-container:hover {
+    background-color: #eaeaea;
+    /* Changed background color on hover */
+    transform: translateY(-5px);
+    color: black;
+    border: 5px rgb(0, 0, 0) solid;
+}
+
+.req-container .user-info {
+    display: flex;
+    align-items: center;
+}
+
+.req-container .user-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.req-container .user-info img:hover {
+    transform: scale(1.1);
+}
+
+.req-container .user-info .username {
+    font-size: 24px;
+    /* margin: 0; */
+    margin-right: 60px;
+    font-weight: bold;
+    /* color: #f9f7f7; */
+}
+
+.req-container .buttons {
+    display: flex;
+}
+
+.req-container button {
+    background-color: #ff0066;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.req-container button:hover {
+    background-color: #ff0080;
+}
+
+
+/* <!-- HTML !--><button class="button-21" role="button">Button 21</button>CSS */
+
+.button-21 {
+    align-items: center;
+    appearance: none;
+    background-color: #3EB2FD;
+    background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd, sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s, background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.button-21:active,
+.button-21:focus {
+    outline: none;
+}
+
+.button-21:hover {
+    background-position: -20px -20px;
+}
+
+.button-21:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
